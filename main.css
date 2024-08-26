@@ -1,0 +1,39 @@
+body {
+    background-image : url('img/main.png');
+    background-image: no-repeat;
+}
+
+div{
+    text-align: center;
+}
+
+#logo_img{
+    margin-top:20px;
+}
+
+
+#main_img{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+p{
+    text-align: left;
+    color:rgb(201, 129, 141);
+    font-size: 40px;
+}
+
+input{
+    text-align: right;
+}
+
+#login_button{
+    text-align: right;
+    margin-right:40px;
+}
+
+a{
+    font-size:30px;
+}
